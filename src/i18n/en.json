@@ -1,0 +1,184 @@
+{
+  "app": {
+    "name": "Sportify",
+    "tagline": "AI-Powered Sports Talent Analysis"
+  },
+  "nav": {
+    "home": "Home",
+    "analyze": "Analyze",
+    "results": "Results",
+    "opportunities": "Opportunities",
+    "settings": "Settings",
+    "login": "Login",
+    "signup": "Sign Up",
+    "history": "History",
+    "logout": "Logout"
+  },
+  "home": {
+    "title": "Welcome to Sportify",
+    "subtitle": "Discover your sports potential with AI-powered pose analysis",
+    "description": "Sportify uses advanced machine learning to analyze your movement patterns and recommend the best sports for your natural abilities. Get personalized insights and discover opportunities to pursue your athletic dreams.",
+    "getStarted": "Start Free Assessment",
+    "features": {
+      "title": "How It Works",
+      "recordActivityTitle": "Record Activity",
+      "recordActivityDesc": "Upload a video or record one using your device camera to capture your athletic movements.",
+      "aiAnalysisTitle": "AI Analysis",
+      "aiAnalysisDesc": "Advanced AI analyzes your movement patterns using pose detection to measure agility, balance, coordination, and reaction time.",
+      "getRecommendationsTitle": "Get Recommendations",
+      "getRecommendationsDesc": "Receive personalized sport recommendations based on your analysis and discover opportunities that match your profile.",
+      "pose": "Pose Detection",
+      "poseDesc": "Advanced AI analyzes your movement using MediaPipe and TensorFlow.js",
+      "scoring": "Talent Scoring",
+      "scoringDesc": "Comprehensive scoring across agility, balance, coordination, and reaction time",
+      "recommendations": "Sport Recommendations",
+      "recommendationsDesc": "Get personalized sport recommendations based on your analysis",
+      "opportunities": "Opportunity Mapping",
+      "opportunitiesDesc": "Discover local and national sports opportunities that match your profile"
+    },
+    "cta": {
+      "heading": "Ready to discover your potential?",
+      "description": "Upload a video or record one to get started with your analysis"
+    }
+  },
+  "videoInput": {
+    "title": "Record or Upload Video",
+    "subtitle": "Choose how you want to provide your movement video",
+    "record": "Record Video",
+    "upload": "Upload Video",
+    "selectFile": "Select Video File",
+    "supportedFormats": "Supported formats: MP4, WebM, MOV",
+    "maxSize": "Maximum file size: 100MB",
+    "recording": "Recording...",
+    "stop": "Stop",
+    "preview": "Preview",
+    "analyze": "Analyze Video",
+    "processing": "Processing...",
+    "error": "Error processing video",
+    "noVideo": "Please record or upload a video first"
+  },
+  "analysis": {
+    "title": "Analyzing Your Movement",
+    "subtitle": "Processing video frames with AI...",
+    "progress": "Progress",
+    "framesProcessed": "Frames processed",
+    "calculating": "Calculating metrics...",
+    "pleaseWait": "Please wait while we analyze your video"
+  },
+  "results": {
+    "title": "Your Talent Analysis Report",
+    "overallScore": "Overall Score",
+    "scores": {
+      "title": "Your Scores",
+      "agility": "Agility",
+      "balance": "Balance",
+      "coordination": "Coordination",
+      "reactionTime": "Reaction Time"
+    },
+    "recommendedSports": {
+      "title": "Recommended Sports",
+      "suitabilityScore": "Suitability Score",
+      "meetsRequirements": "Meets Requirements",
+      "doesNotMeet": "Does Not Meet Requirements"
+    },
+    "allSports": {
+      "title": "All Sports Analysis"
+    },
+    "suggestions": {
+      "title": "Improvement Suggestions",
+      "currentScore": "Current Score",
+      "targetScore": "Target Score"
+    },
+    "downloadReport": "Download PDF Report",
+    "analyzeAgain": "Analyze Another Video"
+  },
+  "opportunities": {
+    "title": "Sports Opportunities",
+    "subtitle": "Discover opportunities that match your profile",
+    "filterBy": "Filter by Sport",
+    "allSports": "All Sports",
+    "noOpportunities": "No opportunities found matching your criteria",
+    "apply": "Apply Now",
+    "learnMore": "Learn More",
+    "eligibility": "Eligibility",
+    "ageRange": "Age Range",
+    "years": "years",
+    "date": "Date",
+    "location": "Location",
+    "type": {
+      "khelo-india": "Khelo India",
+      "district-trials": "District Trials",
+      "state-championship": "State Championship",
+      "local-tournament": "Local Tournament",
+      "college-league": "College League",
+      "national-trials": "National Trials"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "hindi": "Hindi",
+    "storage": "Storage",
+    "clearVideos": "Clear Stored Videos",
+    "clearResults": "Clear Analysis Results",
+    "clear": "Clear",
+    "reset": "Reset",
+    "about": "About",
+    "version": "Version",
+    "description": "Sportify is an AI-powered sports talent analysis platform that helps athletes discover their potential and find opportunities."
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "signin": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUpNow": "Sign up now",
+    "signInNow": "Sign in now",
+    "loginSuccess": "Login successful!",
+    "signupSuccess": "Account created successfully!",
+    "logoutSuccess": "Logged out successfully",
+    "error": "Authentication error",
+    "invalidEmail": "Invalid email address",
+    "weakPassword": "Password should be at least 6 characters",
+    "wrongPassword": "Incorrect password",
+    "userNotFound": "User not found",
+    "emailInUse": "Email already in use",
+    "networkError": "Network error. Please try again."
+  },
+  "history": {
+    "title": "Assessment History",
+    "subtitle": "View your past assessment reports",
+    "noHistory": "No assessment history found",
+    "noHistoryDesc": "Start your first assessment to see your reports here",
+    "startAssessment": "Start Assessment",
+    "overallScore": "Overall Score",
+    "recommendedSport": "Recommended Sport",
+    "date": "Date",
+    "viewReport": "View Report",
+    "loading": "Loading history...",
+    "error": "Error loading history"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No",
+    "close": "Close"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "aboutTitle": "About",
+    "allRightsReserved": "All rights reserved"
+  }
+}

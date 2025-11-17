@@ -1,0 +1,100 @@
+{
+  "opportunities": [
+    {
+      "id": "khelo-india-2024",
+      "type": "Khelo India",
+      "name": "Khelo India Youth Games 2024",
+      "nameHi": "खेलो इंडिया यूथ गेम्स 2024",
+      "description": "National level competition for youth athletes aged 14-21",
+      "descriptionHi": "14-21 वर्ष की आयु के युवा एथलीटों के लिए राष्ट्रीय स्तर की प्रतियोगिता",
+      "eligibility": {
+        "ageMin": 14,
+        "ageMax": 21,
+        "sports": ["football", "athletics", "badminton", "volleyball"]
+      },
+      "date": "2024-06-15",
+      "location": "New Delhi",
+      "website": "https://kheloindia.gov.in"
+    },
+    {
+      "id": "district-trials-football",
+      "type": "District Trials",
+      "name": "District Football Trials 2024",
+      "nameHi": "जिला फुटबॉल परीक्षण 2024",
+      "description": "Open trials for district-level football team selection",
+      "descriptionHi": "जिला स्तरीय फुटबॉल टीम चयन के लिए खुली परीक्षण",
+      "eligibility": {
+        "ageMin": 16,
+        "ageMax": 25,
+        "sports": ["football"]
+      },
+      "date": "2024-04-20",
+      "location": "District Sports Complex",
+      "website": null
+    },
+    {
+      "id": "state-athletics-championship",
+      "type": "State Championship",
+      "name": "State Athletics Championship 2024",
+      "nameHi": "राज्य एथलेटिक्स चैंपियनशिप 2024",
+      "description": "State-level athletics competition",
+      "descriptionHi": "राज्य स्तरीय एथलेटिक्स प्रतियोगिता",
+      "eligibility": {
+        "ageMin": 18,
+        "ageMax": 30,
+        "sports": ["athletics", "throwing"]
+      },
+      "date": "2024-05-10",
+      "location": "State Sports Stadium",
+      "website": null
+    },
+    {
+      "id": "local-badminton-tournament",
+      "type": "Local Tournament",
+      "name": "City Badminton Open 2024",
+      "nameHi": "सिटी बैडमिंटन ओपन 2024",
+      "description": "Open badminton tournament for all age groups",
+      "descriptionHi": "सभी आयु समूहों के लिए खुली बैडमिंटन प्रतियोगिता",
+      "eligibility": {
+        "ageMin": 12,
+        "ageMax": 50,
+        "sports": ["badminton"]
+      },
+      "date": "2024-04-15",
+      "location": "City Sports Club",
+      "website": null
+    },
+    {
+      "id": "college-volleyball-league",
+      "type": "College League",
+      "name": "Inter-College Volleyball League 2024",
+      "nameHi": "अंतर-कॉलेज वॉलीबॉल लीग 2024",
+      "description": "College-level volleyball competition",
+      "descriptionHi": "कॉलेज स्तरीय वॉलीबॉल प्रतियोगिता",
+      "eligibility": {
+        "ageMin": 17,
+        "ageMax": 25,
+        "sports": ["volleyball"]
+      },
+      "date": "2024-05-25",
+      "location": "University Sports Complex",
+      "website": null
+    },
+    {
+      "id": "youth-olympic-trials",
+      "type": "National Trials",
+      "name": "Youth Olympic Games Trials 2024",
+      "nameHi": "यूथ ओलंपिक गेम्स परीक्षण 2024",
+      "description": "Trials for selection to Youth Olympic Games",
+      "descriptionHi": "यूथ ओलंपिक गेम्स में चयन के लिए परीक्षण",
+      "eligibility": {
+        "ageMin": 15,
+        "ageMax": 18,
+        "sports": ["athletics", "badminton", "volleyball", "throwing"]
+      },
+      "date": "2024-07-01",
+      "location": "National Sports Complex",
+      "website": null
+    }
+  ]
+}

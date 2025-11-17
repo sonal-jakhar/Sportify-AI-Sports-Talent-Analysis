@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green Background Circle (Sportify Green #16a34a) -->
+  <circle cx="256" cy="256" r="256" fill="#16a34a"/>
+  
+  <!-- White Circle for Play Button -->
+  <circle cx="256" cy="256" r="140" fill="white"/>
+  
+  <!-- Green Play Triangle -->
+  <path
+    d="M 206 176 L 206 336 L 326 256 Z"
+    fill="#16a34a"
+  />
+</svg>

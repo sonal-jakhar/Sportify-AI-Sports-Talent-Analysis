@@ -1,0 +1,89 @@
+{
+  "sports": [
+    {
+      "id": "football",
+      "name": "Football",
+      "nameHi": "फुटबॉल",
+      "weight": {
+        "agility": 0.35,
+        "coordination": 0.35,
+        "balance": 0.15,
+        "reactionTime": 0.15
+      },
+      "minScores": {
+        "agility": 60,
+        "coordination": 60,
+        "balance": 40,
+        "reactionTime": 40
+      }
+    },
+    {
+      "id": "athletics",
+      "name": "Athletics",
+      "nameHi": "एथलेटिक्स",
+      "weight": {
+        "agility": 0.40,
+        "reactionTime": 0.35,
+        "balance": 0.15,
+        "coordination": 0.10
+      },
+      "minScores": {
+        "agility": 65,
+        "reactionTime": 60,
+        "balance": 45,
+        "coordination": 40
+      }
+    },
+    {
+      "id": "badminton",
+      "name": "Badminton",
+      "nameHi": "बैडमिंटन",
+      "weight": {
+        "coordination": 0.35,
+        "reactionTime": 0.35,
+        "agility": 0.20,
+        "balance": 0.10
+      },
+      "minScores": {
+        "coordination": 65,
+        "reactionTime": 65,
+        "agility": 50,
+        "balance": 40
+      }
+    },
+    {
+      "id": "volleyball",
+      "name": "Volleyball",
+      "nameHi": "वॉलीबॉल",
+      "weight": {
+        "balance": 0.30,
+        "coordination": 0.30,
+        "agility": 0.25,
+        "reactionTime": 0.15
+      },
+      "minScores": {
+        "balance": 60,
+        "coordination": 60,
+        "agility": 50,
+        "reactionTime": 45
+      }
+    },
+    {
+      "id": "throwing",
+      "name": "Throwing Events",
+      "nameHi": "थ्रोइंग इवेंट्स",
+      "weight": {
+        "balance": 0.40,
+        "coordination": 0.30,
+        "reactionTime": 0.20,
+        "agility": 0.10
+      },
+      "minScores": {
+        "balance": 70,
+        "coordination": 55,
+        "reactionTime": 50,
+        "agility": 40
+      }
+    }
+  ]
+}
