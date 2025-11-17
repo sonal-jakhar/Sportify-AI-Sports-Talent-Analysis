@@ -29,4 +29,3 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_TOKEN }}'
           projectId: 'sportify-4bc84'
           channelId: 'live' 
-          target: 'hosting'
