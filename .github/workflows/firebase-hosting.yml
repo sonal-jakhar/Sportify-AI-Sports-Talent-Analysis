@@ -27,5 +27,6 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_TOKEN }}'
-          projectId: 'sportify-4bc84' # <-- This is your unique Project ID
+          projectId: 'sportify-4bc84'
+          channelId: 'live' 
           target: 'hosting'
