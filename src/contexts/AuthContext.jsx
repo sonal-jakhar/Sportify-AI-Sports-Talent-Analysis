@@ -22,15 +22,24 @@ export function AuthProvider({ children }) {
     
     // Check if Firebase is available
     if (typeof window !== 'undefined') {
-      // Try to get current user immediately (synchronous check)
-      const currentUser = getCurrentUser();
+      
+      let currentUser = null;
+      // 1. Wrap the synchronous call to getCurrentUser in a try/catch
+      try {
+        currentUser = getCurrentUser();
+      } catch (error) {
+        // If an error is thrown (e.g., Firebase Auth not initialized), currentUser remains null.
+        console.error("AuthContext: Synchronous Firebase call failed (Uninitialized).", error.message);
+      }
+
       if (currentUser && mounted) {
         setUser(currentUser);
         setLoading(false);
       }
 
-      // Set up auth state listener using our utility function
+      // 2. Set up auth state listener using our utility function
       try {
+        // This is wrapped to catch initialization errors if they occur here
         unsubscribe = onAuthStateChanged((firebaseUser) => {
           if (mounted) {
             setUser(firebaseUser);
@@ -38,7 +47,12 @@ export function AuthProvider({ children }) {
           }
         });
       } catch (error) {
-        console.warn('Error setting up auth listener:', error);
+        // If the listener setup fails, handle the uninitialized state gracefully
+        if (error.message.includes('Firebase Authentication is not initialized')) {
+            console.error('AuthContext: Firebase Auth is completely uninitialized. Authentication features disabled.');
+        } else {
+            console.warn('Error setting up auth listener:', error);
+        }
         if (mounted && !currentUser) {
           setLoading(false);
         }
