@@ -34,15 +34,13 @@ let app;
 let auth;
 let db;
 
-// Check if Firebase config is valid (not empty and not placeholder values)
+// Check if Firebase config is valid (NEW, simpler check)
 const isConfigValid = firebaseConfig.apiKey && 
-  firebaseConfig.apiKey.trim() !== '' &&
-  firebaseConfig.apiKey !== 'your-api-key' &&
+  firebaseConfig.apiKey.length > 0 &&
   firebaseConfig.projectId && 
-  firebaseConfig.projectId.trim() !== '' &&
-  firebaseConfig.projectId !== 'your-project-id' &&
+  firebaseConfig.projectId.length > 0 &&
   firebaseConfig.authDomain &&
-  firebaseConfig.authDomain.trim() !== '';
+  firebaseConfig.authDomain.length > 0;
 
 if (isConfigValid) {
   try {
